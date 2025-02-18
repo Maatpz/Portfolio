@@ -6,7 +6,6 @@ botaoTema.addEventListener('click', () => {
     const isModoEscuro = corpo.classList.contains('dark-mode');
     botaoTema.innerHTML = isModoEscuro ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
 });
-
 const secoes = document.querySelectorAll('section');
 const observador = new IntersectionObserver((entradas) => {
     entradas.forEach(entrada => {
@@ -15,11 +14,9 @@ const observador = new IntersectionObserver((entradas) => {
         }
     });
 }, { threshold: 0.1 });
-
 secoes.forEach(secao => {
     observador.observe(secao);
 });
-
 const botaoTopo = document.getElementById('botao-topo');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
