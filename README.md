@@ -7,4 +7,4 @@ CSS
 JavaScript
 
 # 🔗 Acesse o Portfólio
-<a target=”_blank” href= "https://portfolio-matpz.vercel.app/"> 
+<a href= "https://portfolio-matpz.vercel.app/"> 
