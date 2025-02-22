@@ -80,7 +80,7 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    align-self: center; /* Centraliza o botão horizontalmente */
+    align-self: center;
 }
 
 .btn:hover {
