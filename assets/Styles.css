@@ -42,8 +42,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s;
 }
-
+nav ul li a:hover {
+    color: #ff6b6b;
+}
 #theme-toggle {
     background: none;
     border: none;
@@ -127,8 +130,14 @@ h2 {
     margin-bottom: 15px;
 }
 
-.projeto:hover, .habilidade:hover {
+.habilidade:hover {
     transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
+}
+.projeto:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .projeto img {
