@@ -16,6 +16,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    /* display: flex; */
 }
 
 header {
@@ -36,6 +37,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding: 10px;
 }
 
 nav ul li a {
@@ -47,6 +49,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff6b6b;
 }
+
 #theme-toggle {
     background: none;
     border: none;
