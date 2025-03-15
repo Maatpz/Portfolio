@@ -16,7 +16,6 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    /* display: flex; */
 }
 
 header {
@@ -75,6 +74,7 @@ nav ul li a:hover {
 .texto_apresentacao p {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn {

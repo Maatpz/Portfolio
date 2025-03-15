@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+vendor/
+
+# Diretórios de build
+dist/
+build/
+out/
+
+# Arquivos de configuração específicos do ambiente
+*.env
+*.local
+.vscode/
+.idea/
+
+# Arquivos de log
+*.log
+
+# Cache
+.cache/
